@@ -1,0 +1,282 @@
+2024-05-23 16:30:19,558 INFO    StreamThr :3836 [internal.py:wandb_internal():86] W&B internal server running at pid: 3836, started at: 2024-05-23 16:30:19.557634
+2024-05-23 16:30:19,559 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status
+2024-05-23 16:30:19,563 INFO    WriterThread:3836 [datastore.py:open_for_write():85] open: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\run-asoqzdwo.wandb
+2024-05-23 16:30:19,563 DEBUG   SenderThread:3836 [sender.py:send():380] send: header
+2024-05-23 16:30:19,565 DEBUG   SenderThread:3836 [sender.py:send():380] send: run
+2024-05-23 16:30:20,698 INFO    SenderThread:3836 [dir_watcher.py:__init__():211] watching files in: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files
+2024-05-23 16:30:20,698 INFO    SenderThread:3836 [sender.py:_start_run_threads():1124] run started: asoqzdwo with start time 1716453019.559568
+2024-05-23 16:30:20,701 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: check_version
+2024-05-23 16:30:20,701 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: check_version
+2024-05-23 16:30:20,895 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: run_start
+2024-05-23 16:30:20,935 DEBUG   HandlerThread:3836 [system_info.py:__init__():32] System info init
+2024-05-23 16:30:20,935 DEBUG   HandlerThread:3836 [system_info.py:__init__():47] System info init done
+2024-05-23 16:30:20,935 INFO    HandlerThread:3836 [system_monitor.py:start():194] Starting system monitor
+2024-05-23 16:30:20,936 INFO    SystemMonitor:3836 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-23 16:30:20,936 INFO    HandlerThread:3836 [system_monitor.py:probe():214] Collecting system info
+2024-05-23 16:30:20,943 INFO    SystemMonitor:3836 [interfaces.py:start():190] Started cpu monitoring
+2024-05-23 16:30:20,944 INFO    SystemMonitor:3836 [interfaces.py:start():190] Started disk monitoring
+2024-05-23 16:30:20,945 INFO    SystemMonitor:3836 [interfaces.py:start():190] Started gpu monitoring
+2024-05-23 16:30:20,958 INFO    SystemMonitor:3836 [interfaces.py:start():190] Started memory monitoring
+2024-05-23 16:30:20,965 DEBUG   HandlerThread:3836 [system_info.py:probe():196] Probing system
+2024-05-23 16:30:20,975 INFO    SystemMonitor:3836 [interfaces.py:start():190] Started network monitoring
+2024-05-23 16:30:20,976 DEBUG   HandlerThread:3836 [gitlib.py:_init_repo():56] git repository is invalid
+2024-05-23 16:30:20,976 DEBUG   HandlerThread:3836 [system_info.py:probe():244] Probing system done
+2024-05-23 16:30:20,976 DEBUG   HandlerThread:3836 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.18', 'heartbeatAt': '2024-05-23T08:30:20.965771', 'startedAt': '2024-05-23T08:30:19.540632', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\Pycharm\\ultralytics-main\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'DESKTOP-VH2CUSJ', 'username': 'DELL', 'executable': 'D:\\Anaconda\\envs\\DL\\python.exe', 'cpu_count': 10, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'/': {'total': 244.13964462280273, 'used': 174.86832427978516}}, 'gpu': 'NVIDIA GeForce RTX 4050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4050 Laptop GPU', 'memory_total': 6439305216}], 'memory': {'total': 15.692092895507812}}
+2024-05-23 16:30:20,976 INFO    HandlerThread:3836 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-23 16:30:20,976 INFO    HandlerThread:3836 [system_monitor.py:probe():227] Publishing system info
+2024-05-23 16:30:20,976 DEBUG   HandlerThread:3836 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-05-23 16:30:20,976 DEBUG   HandlerThread:3836 [system_info.py:_save_pip():68] Saving pip packages done
+2024-05-23 16:30:20,976 DEBUG   HandlerThread:3836 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-05-23 16:30:21,711 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\conda-environment.yaml
+2024-05-23 16:30:21,711 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\requirements.txt
+2024-05-23 16:30:26,296 DEBUG   HandlerThread:3836 [system_info.py:_save_conda():87] Saving conda packages done
+2024-05-23 16:30:26,297 INFO    HandlerThread:3836 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-23 16:30:26,307 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:30:26,307 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-23 16:30:26,307 DEBUG   SenderThread:3836 [sender.py:send():380] send: files
+2024-05-23 16:30:26,307 INFO    SenderThread:3836 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-05-23 16:30:26,313 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:30:26,313 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:30:26,317 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:30:26,624 DEBUG   SenderThread:3836 [sender.py:send():380] send: telemetry
+2024-05-23 16:30:26,755 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\conda-environment.yaml
+2024-05-23 16:30:26,756 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\wandb-metadata.json
+2024-05-23 16:30:26,756 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:27,613 ERROR   wandb-upload_0:3836 [internal_api.py:upload_file():2557] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/666233/runs/asoqzdwo/wandb-metadata.json?Expires=1716539427&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=WqPMv7s4DJ%2BVbjeJphrHvsMrvseyjgElOEJozOJb8RP10lImcBvOzzOZRGAUn5qHvjjywcckAXMadejJZfdQ9DFiyCxKiSpC59uMTUHDcvnBR%2F%2Bq0T03cFIASTrAWHvBd441S5k5%2BD3dtVuXCW6u%2FnaizeqdHgJ022U53e9avmsVYRZzi44BTEefEH4Tqz6%2BlFOGP4CbugD3L%2FWs1mF90fLDhjQkjwmb08ipStlmUXpiMunMgXds9jTSL89gh6DA2GhETvruP6re9mINEceYe3syp%2FLPrZ6slUbGdAYNRdyPdfH0pgLa8jwlID7jekzLZmnuCaJ5BDqAiHtszy24%2BQ%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/666233/runs/asoqzdwo/wandb-metadata.json?Expires=1716539427&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=WqPMv7s4DJ%2BVbjeJphrHvsMrvseyjgElOEJozOJb8RP10lImcBvOzzOZRGAUn5qHvjjywcckAXMadejJZfdQ9DFiyCxKiSpC59uMTUHDcvnBR%2F%2Bq0T03cFIASTrAWHvBd441S5k5%2BD3dtVuXCW6u%2FnaizeqdHgJ022U53e9avmsVYRZzi44BTEefEH4Tqz6%2BlFOGP4CbugD3L%2FWs1mF90fLDhjQkjwmb08ipStlmUXpiMunMgXds9jTSL89gh6DA2GhETvruP6re9mINEceYe3syp%2FLPrZ6slUbGdAYNRdyPdfH0pgLa8jwlID7jekzLZmnuCaJ5BDqAiHtszy24%2BQ%3D%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)))
+2024-05-23 16:30:27,613 ERROR   wandb-upload_0:3836 [internal_api.py:upload_file():2559] upload_file request headers: {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1195'}
+2024-05-23 16:30:27,613 ERROR   wandb-upload_0:3836 [internal_api.py:upload_file():2561] upload_file response body: 
+2024-05-23 16:30:28,785 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:29,255 ERROR   wandb-upload_0:3836 [internal_api.py:upload_file():2557] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/666233/runs/asoqzdwo/wandb-metadata.json?Expires=1716539427&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=WqPMv7s4DJ%2BVbjeJphrHvsMrvseyjgElOEJozOJb8RP10lImcBvOzzOZRGAUn5qHvjjywcckAXMadejJZfdQ9DFiyCxKiSpC59uMTUHDcvnBR%2F%2Bq0T03cFIASTrAWHvBd441S5k5%2BD3dtVuXCW6u%2FnaizeqdHgJ022U53e9avmsVYRZzi44BTEefEH4Tqz6%2BlFOGP4CbugD3L%2FWs1mF90fLDhjQkjwmb08ipStlmUXpiMunMgXds9jTSL89gh6DA2GhETvruP6re9mINEceYe3syp%2FLPrZ6slUbGdAYNRdyPdfH0pgLa8jwlID7jekzLZmnuCaJ5BDqAiHtszy24%2BQ%3D%3D: HTTPSConnectionPool(host='storage.googleapis.com', port=443): Max retries exceeded with url: /wandb-production.appspot.com/666233/runs/asoqzdwo/wandb-metadata.json?Expires=1716539427&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=WqPMv7s4DJ%2BVbjeJphrHvsMrvseyjgElOEJozOJb8RP10lImcBvOzzOZRGAUn5qHvjjywcckAXMadejJZfdQ9DFiyCxKiSpC59uMTUHDcvnBR%2F%2Bq0T03cFIASTrAWHvBd441S5k5%2BD3dtVuXCW6u%2FnaizeqdHgJ022U53e9avmsVYRZzi44BTEefEH4Tqz6%2BlFOGP4CbugD3L%2FWs1mF90fLDhjQkjwmb08ipStlmUXpiMunMgXds9jTSL89gh6DA2GhETvruP6re9mINEceYe3syp%2FLPrZ6slUbGdAYNRdyPdfH0pgLa8jwlID7jekzLZmnuCaJ5BDqAiHtszy24%2BQ%3D%3D (Caused by ProxyError('Cannot connect to proxy.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None)))
+2024-05-23 16:30:29,256 ERROR   wandb-upload_0:3836 [internal_api.py:upload_file():2559] upload_file request headers: {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1195'}
+2024-05-23 16:30:29,256 ERROR   wandb-upload_0:3836 [internal_api.py:upload_file():2561] upload_file response body: 
+2024-05-23 16:30:30,673 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:30:32,698 INFO    wandb-upload_0:3836 [upload_job.py:push():131] Uploaded file C:\Users\DELL\AppData\Local\Temp\tmp8ylbw2wbwandb\lvygtk6b-wandb-metadata.json
+2024-05-23 16:30:35,737 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:30:40,742 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:30:40,924 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:41,352 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:30:41,352 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:30:41,353 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:30:42,949 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:44,973 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:46,628 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:30:47,004 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:49,026 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:51,055 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:51,989 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:30:53,080 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\config.yaml
+2024-05-23 16:30:55,100 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:56,315 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:30:56,315 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:30:56,339 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:30:57,129 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:30:57,470 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:30:59,144 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:01,166 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:02,492 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:03,179 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:05,191 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:07,220 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:07,604 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:09,235 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:11,252 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:11,328 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:31:11,329 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:31:11,332 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:31:12,766 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:13,262 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:15,284 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:17,302 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:17,774 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:19,312 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:20,989 DEBUG   SystemMonitor:3836 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-23 16:31:20,990 DEBUG   SenderThread:3836 [sender.py:send():380] send: stats
+2024-05-23 16:31:21,333 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:22,879 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:23,345 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:25,373 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:26,334 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:31:26,334 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:31:26,346 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:31:27,391 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:28,018 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:29,411 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:31,428 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:33,025 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:33,454 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:35,472 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:37,484 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:38,133 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:39,513 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:41,342 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:31:41,342 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:31:41,357 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:31:41,528 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:43,145 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:43,538 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:45,558 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:47,582 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:48,175 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:49,610 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:50,992 DEBUG   SenderThread:3836 [sender.py:send():380] send: stats
+2024-05-23 16:31:51,632 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:53,347 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:53,678 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:55,681 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:56,368 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:31:56,369 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:31:56,369 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:31:57,709 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:31:58,381 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:31:59,726 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:01,743 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:03,480 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:03,761 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:05,783 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:07,797 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:08,572 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:09,812 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:11,374 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:32:11,375 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:32:11,375 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:32:11,840 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:13,610 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:13,863 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:15,875 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:17,899 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:18,812 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:19,930 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:20,999 DEBUG   SenderThread:3836 [sender.py:send():380] send: stats
+2024-05-23 16:32:21,952 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:23,835 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:23,979 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:25,994 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:26,390 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:32:26,390 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:32:26,393 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:32:28,015 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:28,879 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:30,034 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:32,050 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:33,955 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:34,075 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:36,094 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:38,122 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:39,095 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:40,146 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:41,394 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:32:41,394 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:32:41,395 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:32:42,174 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:44,115 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:44,188 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:46,209 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:48,226 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:49,207 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:50,246 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:51,012 DEBUG   SenderThread:3836 [sender.py:send():380] send: stats
+2024-05-23 16:32:52,277 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:54,218 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:32:54,303 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:56,324 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:56,407 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:32:56,427 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:32:56,427 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:32:58,353 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:32:59,318 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:00,394 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:02,412 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:04,443 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:04,451 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:06,457 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:08,480 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:09,453 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:10,498 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:11,406 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:33:11,438 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:33:11,439 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:33:12,512 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:14,526 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:14,610 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:16,539 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:18,569 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:19,579 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:19,686 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:21,024 DEBUG   SenderThread:3836 [sender.py:send():380] send: stats
+2024-05-23 16:33:21,588 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:23,618 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:24,690 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:25,622 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:26,419 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:33:26,452 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:33:26,452 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:33:27,656 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:29,666 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:29,732 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:31,694 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:33,724 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:34,775 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:35,733 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:37,740 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:39,751 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:39,906 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:41,427 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:33:41,459 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:33:41,459 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:33:41,761 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:43,793 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:44,938 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:45,811 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:47,833 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:49,850 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:49,945 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:51,037 DEBUG   SenderThread:3836 [sender.py:send():380] send: stats
+2024-05-23 16:33:51,862 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:53,875 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:55,035 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:33:55,924 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:33:56,442 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:33:56,458 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:33:56,458 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:33:57,968 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:00,002 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:00,064 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:02,023 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:04,078 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:05,103 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:06,112 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:08,150 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:10,207 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:10,271 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:11,455 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:34:11,471 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:34:11,472 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:34:12,237 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:14,261 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:15,403 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:16,286 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:18,331 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:20,371 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:20,551 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:21,052 DEBUG   SenderThread:3836 [sender.py:send():380] send: stats
+2024-05-23 16:34:22,385 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:24,411 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:25,585 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:26,428 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:26,459 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:34:26,475 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:34:26,476 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:34:28,439 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:30,447 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:30,597 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:32,471 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:34,513 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:35,751 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:36,536 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:38,561 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:40,587 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log
+2024-05-23 16:34:40,767 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: status_report
+2024-05-23 16:34:41,469 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-23 16:34:41,484 DEBUG   HandlerThread:3836 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-23 16:34:41,485 DEBUG   SenderThread:3836 [sender.py:send_request():407] send_request: stop_status
+2024-05-23 16:34:42,601 INFO    Thread-16 :3836 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240523_163019-asoqzdwo\files\output.log

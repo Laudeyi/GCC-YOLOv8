@@ -1,0 +1,160 @@
+2024-05-27 09:29:17,518 INFO    StreamThr :84276 [internal.py:wandb_internal():86] W&B internal server running at pid: 84276, started at: 2024-05-27 09:29:17.518088
+2024-05-27 09:29:17,519 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: status
+2024-05-27 09:29:17,529 INFO    WriterThread:84276 [datastore.py:open_for_write():85] open: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\run-emwitot7.wandb
+2024-05-27 09:29:17,529 DEBUG   SenderThread:84276 [sender.py:send():380] send: header
+2024-05-27 09:29:17,531 DEBUG   SenderThread:84276 [sender.py:send():380] send: run
+2024-05-27 09:29:18,428 INFO    SenderThread:84276 [dir_watcher.py:__init__():211] watching files in: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files
+2024-05-27 09:29:18,428 INFO    SenderThread:84276 [sender.py:_start_run_threads():1124] run started: emwitot7 with start time 1716773357.52507
+2024-05-27 09:29:18,431 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: check_version
+2024-05-27 09:29:18,431 DEBUG   SenderThread:84276 [sender.py:send_request():407] send_request: check_version
+2024-05-27 09:29:18,815 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: run_start
+2024-05-27 09:29:18,882 DEBUG   HandlerThread:84276 [system_info.py:__init__():32] System info init
+2024-05-27 09:29:18,882 DEBUG   HandlerThread:84276 [system_info.py:__init__():47] System info init done
+2024-05-27 09:29:18,882 INFO    HandlerThread:84276 [system_monitor.py:start():194] Starting system monitor
+2024-05-27 09:29:18,882 INFO    SystemMonitor:84276 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-27 09:29:18,883 INFO    HandlerThread:84276 [system_monitor.py:probe():214] Collecting system info
+2024-05-27 09:29:18,892 INFO    SystemMonitor:84276 [interfaces.py:start():190] Started cpu monitoring
+2024-05-27 09:29:18,892 INFO    SystemMonitor:84276 [interfaces.py:start():190] Started disk monitoring
+2024-05-27 09:29:18,893 INFO    SystemMonitor:84276 [interfaces.py:start():190] Started gpu monitoring
+2024-05-27 09:29:18,907 INFO    SystemMonitor:84276 [interfaces.py:start():190] Started memory monitoring
+2024-05-27 09:29:18,915 DEBUG   HandlerThread:84276 [system_info.py:probe():196] Probing system
+2024-05-27 09:29:18,943 INFO    SystemMonitor:84276 [interfaces.py:start():190] Started network monitoring
+2024-05-27 09:29:18,944 DEBUG   HandlerThread:84276 [gitlib.py:_init_repo():56] git repository is invalid
+2024-05-27 09:29:18,944 DEBUG   HandlerThread:84276 [system_info.py:probe():244] Probing system done
+2024-05-27 09:29:18,944 DEBUG   HandlerThread:84276 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.9.18', 'heartbeatAt': '2024-05-27T01:29:18.916832', 'startedAt': '2024-05-27T01:29:17.508122', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\Pycharm\\ultralytics-main\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'DESKTOP-VH2CUSJ', 'username': 'DELL', 'executable': 'D:\\Anaconda\\envs\\DL\\python.exe', 'cpu_count': 10, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2400.0, 'min': 0.0, 'max': 2400.0}, 'cpu_freq_per_core': [{'current': 2400.0, 'min': 0.0, 'max': 2400.0}], 'disk': {'/': {'total': 244.13964462280273, 'used': 173.53635787963867}}, 'gpu': 'NVIDIA GeForce RTX 4050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4050 Laptop GPU', 'memory_total': 6439305216}], 'memory': {'total': 15.692092895507812}}
+2024-05-27 09:29:18,945 INFO    HandlerThread:84276 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-27 09:29:18,945 INFO    HandlerThread:84276 [system_monitor.py:probe():227] Publishing system info
+2024-05-27 09:29:18,945 DEBUG   HandlerThread:84276 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-05-27 09:29:18,945 DEBUG   HandlerThread:84276 [system_info.py:_save_pip():68] Saving pip packages done
+2024-05-27 09:29:18,945 DEBUG   HandlerThread:84276 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-05-27 09:29:19,441 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\conda-environment.yaml
+2024-05-27 09:29:19,441 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\requirements.txt
+2024-05-27 09:29:23,877 DEBUG   HandlerThread:84276 [system_info.py:_save_conda():87] Saving conda packages done
+2024-05-27 09:29:23,878 INFO    HandlerThread:84276 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-27 09:29:23,891 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: status_report
+2024-05-27 09:29:23,891 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: keepalive
+2024-05-27 09:29:23,891 DEBUG   SenderThread:84276 [sender.py:send():380] send: files
+2024-05-27 09:29:23,891 INFO    SenderThread:84276 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-05-27 09:29:23,897 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-27 09:29:23,897 DEBUG   SenderThread:84276 [sender.py:send_request():407] send_request: stop_status
+2024-05-27 09:29:23,899 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-27 09:29:24,195 DEBUG   SenderThread:84276 [sender.py:send():380] send: telemetry
+2024-05-27 09:29:24,473 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\conda-environment.yaml
+2024-05-27 09:29:24,474 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log
+2024-05-27 09:29:24,474 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_created():271] file/dir created: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\wandb-metadata.json
+2024-05-27 09:29:24,868 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2557] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/666233/runs/emwitot7/wandb-metadata.json?Expires=1716859768&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Xl2K45v%2FKaN%2FHlnMVue68fPdurhndi4%2B5M01%2BwSLX55l%2FOi2P%2BpKcRNA5O5m0ddFdj0BcIjzdGbZW2nCRGwpDEf6KG9b8Iho5Qr%2BXDs5SJifVUA9QtNKlX6TOrHQ30MY1vp8PmKL4GxZA0eWFSL1mMl4cVAR1s3962TW2qeGLeJ10P22izHLSwlK%2BooPWKSGxV7oy17J0jTb1sHjaMXNeAF%2BpqimVhr7BW%2BerOFhJys9UHUZAWV62gYFfbCL0BWpROzcINKKbPjbVdelQ3ULdKgWfvlImQihvH8y3JnhPXR4%2BDZsE6ewX0XU92SmmqgfQ2MqdSCWIZ7VrPLu%2F6fP3w%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-05-27 09:29:24,870 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2559] upload_file request headers: {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1195'}
+2024-05-27 09:29:24,870 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2561] upload_file response body: 
+2024-05-27 09:29:26,254 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2557] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/666233/runs/emwitot7/wandb-metadata.json?Expires=1716859768&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Xl2K45v%2FKaN%2FHlnMVue68fPdurhndi4%2B5M01%2BwSLX55l%2FOi2P%2BpKcRNA5O5m0ddFdj0BcIjzdGbZW2nCRGwpDEf6KG9b8Iho5Qr%2BXDs5SJifVUA9QtNKlX6TOrHQ30MY1vp8PmKL4GxZA0eWFSL1mMl4cVAR1s3962TW2qeGLeJ10P22izHLSwlK%2BooPWKSGxV7oy17J0jTb1sHjaMXNeAF%2BpqimVhr7BW%2BerOFhJys9UHUZAWV62gYFfbCL0BWpROzcINKKbPjbVdelQ3ULdKgWfvlImQihvH8y3JnhPXR4%2BDZsE6ewX0XU92SmmqgfQ2MqdSCWIZ7VrPLu%2F6fP3w%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-05-27 09:29:26,254 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2559] upload_file request headers: {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1195'}
+2024-05-27 09:29:26,254 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2561] upload_file response body: 
+2024-05-27 09:29:26,481 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log
+2024-05-27 09:29:28,226 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: status_report
+2024-05-27 09:29:28,775 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2557] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/666233/runs/emwitot7/wandb-metadata.json?Expires=1716859768&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Xl2K45v%2FKaN%2FHlnMVue68fPdurhndi4%2B5M01%2BwSLX55l%2FOi2P%2BpKcRNA5O5m0ddFdj0BcIjzdGbZW2nCRGwpDEf6KG9b8Iho5Qr%2BXDs5SJifVUA9QtNKlX6TOrHQ30MY1vp8PmKL4GxZA0eWFSL1mMl4cVAR1s3962TW2qeGLeJ10P22izHLSwlK%2BooPWKSGxV7oy17J0jTb1sHjaMXNeAF%2BpqimVhr7BW%2BerOFhJys9UHUZAWV62gYFfbCL0BWpROzcINKKbPjbVdelQ3ULdKgWfvlImQihvH8y3JnhPXR4%2BDZsE6ewX0XU92SmmqgfQ2MqdSCWIZ7VrPLu%2F6fP3w%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-05-27 09:29:28,775 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2559] upload_file request headers: {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1195'}
+2024-05-27 09:29:28,775 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2561] upload_file response body: 
+2024-05-27 09:29:28,775 INFO    wandb-upload_0:84276 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Anaconda\envs\DL\lib\ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\Anaconda\envs\DL\lib\ssl.py", line 1074, in _create
+    self.do_handshake()
+  File "D:\Anaconda\envs\DL\lib\ssl.py", line 1343, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connectionpool.py", line 799, in urlopen
+    retries = retries.increment(
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\util\retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connectionpool.py", line 1058, in _validate_conn
+    conn.connect()
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\connection.py", line 419, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Anaconda\envs\DL\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Anaconda\envs\DL\lib\ssl.py", line 501, in wrap_socket
+    return self.sslsocket_class._create(
+  File "D:\Anaconda\envs\DL\lib\ssl.py", line 1074, in _create
+    self.do_handshake()
+  File "D:\Anaconda\envs\DL\lib\ssl.py", line 1343, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\DL\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2550, in upload_file
+    response = self._upload_file_session.put(
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\DL\lib\site-packages\wandb\sdk\lib\retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "D:\Anaconda\envs\DL\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2581, in upload_file
+    raise _e.with_traceback(sys.exc_info()[2])
+  File "D:\Anaconda\envs\DL\lib\site-packages\wandb\sdk\internal\internal_api.py", line 2550, in upload_file
+    response = self._upload_file_session.put(
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\sessions.py", line 647, in put
+    return self.request("PUT", url, data=data, **kwargs)
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Anaconda\envs\DL\lib\site-packages\requests\adapters.py", line 547, in send
+    raise ConnectionError(err, request=request)
+wandb.sdk.lib.retry.TransientError: None
+2024-05-27 09:29:33,274 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: status_report
+2024-05-27 09:29:33,860 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2557] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/666233/runs/emwitot7/wandb-metadata.json?Expires=1716859768&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Xl2K45v%2FKaN%2FHlnMVue68fPdurhndi4%2B5M01%2BwSLX55l%2FOi2P%2BpKcRNA5O5m0ddFdj0BcIjzdGbZW2nCRGwpDEf6KG9b8Iho5Qr%2BXDs5SJifVUA9QtNKlX6TOrHQ30MY1vp8PmKL4GxZA0eWFSL1mMl4cVAR1s3962TW2qeGLeJ10P22izHLSwlK%2BooPWKSGxV7oy17J0jTb1sHjaMXNeAF%2BpqimVhr7BW%2BerOFhJys9UHUZAWV62gYFfbCL0BWpROzcINKKbPjbVdelQ3ULdKgWfvlImQihvH8y3JnhPXR4%2BDZsE6ewX0XU92SmmqgfQ2MqdSCWIZ7VrPLu%2F6fP3w%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-05-27 09:29:33,860 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2559] upload_file request headers: {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1195'}
+2024-05-27 09:29:33,860 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2561] upload_file response body: 
+2024-05-27 09:29:36,571 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log
+2024-05-27 09:29:37,584 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log
+2024-05-27 09:29:38,599 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log
+2024-05-27 09:29:38,707 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: status_report
+2024-05-27 09:29:38,912 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: internal_messages
+2024-05-27 09:29:38,913 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: stop_status
+2024-05-27 09:29:38,914 DEBUG   SenderThread:84276 [sender.py:send_request():407] send_request: stop_status
+2024-05-27 09:29:40,622 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log
+2024-05-27 09:29:43,639 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2557] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/666233/runs/emwitot7/wandb-metadata.json?Expires=1716859768&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=Xl2K45v%2FKaN%2FHlnMVue68fPdurhndi4%2B5M01%2BwSLX55l%2FOi2P%2BpKcRNA5O5m0ddFdj0BcIjzdGbZW2nCRGwpDEf6KG9b8Iho5Qr%2BXDs5SJifVUA9QtNKlX6TOrHQ30MY1vp8PmKL4GxZA0eWFSL1mMl4cVAR1s3962TW2qeGLeJ10P22izHLSwlK%2BooPWKSGxV7oy17J0jTb1sHjaMXNeAF%2BpqimVhr7BW%2BerOFhJys9UHUZAWV62gYFfbCL0BWpROzcINKKbPjbVdelQ3ULdKgWfvlImQihvH8y3JnhPXR4%2BDZsE6ewX0XU92SmmqgfQ2MqdSCWIZ7VrPLu%2F6fP3w%3D%3D: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+2024-05-27 09:29:43,639 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2559] upload_file request headers: {'User-Agent': 'python-requests/2.28.2', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '1195'}
+2024-05-27 09:29:43,639 ERROR   wandb-upload_0:84276 [internal_api.py:upload_file():2561] upload_file response body: 
+2024-05-27 09:29:44,590 DEBUG   HandlerThread:84276 [handler.py:handle_request():146] handle_request: status_report
+2024-05-27 09:29:44,652 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log
+2024-05-27 09:29:45,666 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log
+2024-05-27 09:29:47,694 INFO    Thread-16 :84276 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\Pycharm\ultralytics-main\wandb\run-20240527_092917-emwitot7\files\output.log

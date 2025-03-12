@@ -1,0 +1,17 @@
+Freezing layer 'model.28.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mScanning D:\Pycharm\ultralytics-main\bishe\labels\train.cache... 2466 images, 0 backgrounds, 0 corrupt: 100%|██████████| 2466/2466 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning D:\Pycharm\ultralytics-main\bishe\labels\val.cache... 823 images, 0 backgrounds, 0 corrupt: 100%|██████████| 823/823 [00:00<?, ?it/s]
+Plotting labels to runs\train\exp2\labels.jpg...
+[34m[1moptimizer:[39m[22m SGD(lr=0.01, momentum=0.937) with parameter groups 103 weight(decay=0.0), 122 weight(decay=0.0005), 112 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 0 dataloader workers
+Logging results to [1mruns\train\exp2
+Starting training for 100 epochs...
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+
+

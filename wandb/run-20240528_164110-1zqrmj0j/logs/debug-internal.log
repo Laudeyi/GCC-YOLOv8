@@ -1,0 +1,5 @@
+2024-05-28 16:41:10,069 INFO    StreamThr :84724 [internal.py:wandb_internal():86] W&B internal server running at pid: 84724, started at: 2024-05-28 16:41:10.069438
+2024-05-28 16:41:10,070 DEBUG   HandlerThread:84724 [handler.py:handle_request():146] handle_request: status
+2024-05-28 16:41:10,074 INFO    WriterThread:84724 [datastore.py:open_for_write():85] open: D:\Pycharm\ultralytics-main\wandb\run-20240528_164110-1zqrmj0j\run-1zqrmj0j.wandb
+2024-05-28 16:41:10,075 DEBUG   SenderThread:84724 [sender.py:send():380] send: header
+2024-05-28 16:41:10,077 DEBUG   SenderThread:84724 [sender.py:send():380] send: run
